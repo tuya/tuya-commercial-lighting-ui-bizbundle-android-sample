@@ -40,7 +40,7 @@ signingConfigs {
 - 设备配网
 - 设备控制
 
-涂鸦商照 UI 业务包文档：[https://developer.tuya.com/cn/docs/app-development/commercial-lighting-app-sdk-for-android?id=平台地址占位]()
+涂鸦商照 UI 业务包文档：[https://developer.tuya.com/cn/docs/app-development/android-saas-lighting-bizbundle?id=Kb5r1ydy6a0qn](https://developer.tuya.com/cn/docs/app-development/android-saas-lighting-bizbundle?id=Kb5r1ydy6a0qn)
 
 ### 技术支持
 

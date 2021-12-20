@@ -43,7 +43,7 @@ A bunch of BizBundles are supported, including:
 - Device Pairing UI BizBundle
 - Device Control UI BizBundle
 
-For more information, see [https://developer.tuya.com/cn/docs/app-development/commercial-lighting-app-sdk-for-android?id=平台地址占位]()
+For more information, see [https://developer.tuya.com/en/docs/app-development/android-saas-lighting-bizbundle?id=Kb5r1ydy6a0qn](https://developer.tuya.com/en/docs/app-development/android-saas-lighting-bizbundle?id=Kb5r1ydy6a0qn)
 
 ### Technical support
 - Tuya IoT Developer Platform: https://developer.tuya.com/en/
