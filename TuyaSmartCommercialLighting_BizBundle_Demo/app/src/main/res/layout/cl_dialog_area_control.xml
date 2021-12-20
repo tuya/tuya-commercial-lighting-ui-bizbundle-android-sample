@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/action_bar_layout"
+        layout="@layout/toolbar_top_view" />
+
+
+    <TextView
+        android:id="@+id/tv_area_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AREA NAME："
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_switch_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SWITCH ON" />
+
+    <Button
+        android:id="@+id/btn_switch_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SWITCH OFF" />
+
+    <Button
+        android:id="@+id/btn_white_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WHITE COLOR MODE" />
+
+    <Button
+        android:id="@+id/btn_colour_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COLOURFUL MODE" />
+
+    <Button
+        android:id="@+id/btn_scene_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCENE MODE" />
+</LinearLayout>

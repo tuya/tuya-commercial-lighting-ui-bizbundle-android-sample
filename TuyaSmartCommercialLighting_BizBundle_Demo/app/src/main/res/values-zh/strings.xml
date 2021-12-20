@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用 -->
+    <string name="Confirm">确认</string>
+    <string name="ty_loading">加载中…</string>
+    <string name="login_register">注册</string>
+    <string name="please_input_wifi_password">请输入 Wi-Fi 密码</string>
+    <string name="ty_add_device_find_dev">找到设备</string>
+    <string name="ty_add_device_initialize">设备初始化</string>
+    <string name="ty_add_device_reg_cloud">设备注册到智能云</string>
+    <string name="ty_change_login_keyword">修改登录密码</string>
+    <string name="ty_config_device_init_tip">设备正在初始化&#046;&#046;</string>
+    <string name="ty_control_panel_factory_reset">恢复出厂设置</string>
+    <string name="ty_control_panel_factory_reset_fail">恢复出厂设置失败，请重试</string>
+    <string name="ty_control_panel_factory_reset_info">设备恢复出厂设置后，将从设备列表移除，设备相关数据将全部清除</string>
+    <string name="ty_control_panel_factory_reset_succ">成功</string>
+    <string name="ty_control_panel_factory_reseting">设备恢复出厂设置中，请勿关机&#046;&#046;&#046;</string>
+    <string name="ty_current_bind_phone_tip">您当前绑定的账号为：</string>
+    <string name="ty_login_forget_keyword_find">找回密码</string>
+    <string name="ty_modify_device_name_length_limit">设备名称不可超过25个字符</string>
+    <string name="ty_no_net_info">当前网络不可用，请检查手机网络</string>
+    <string name="ty_offline_delete_share">删除共享</string>
+    <string name="ty_permission_tip_location">- 获取手机位置信息的权限</string>
+    <string name="ty_permission_tip_phone_state">- 获取电话设备信息的权限</string>
+    <string name="ty_permission_tip_read_set">为保证您正常使用%1$s，需要您授予“读写系统设置项”的权限</string>
+    <string name="ty_permission_tip_tail">请到手机“设置 - 应用 - %1$s - 权限”中设置授予以上权限</string>
+    <string name="ty_permission_tip_title">为保证您正常使用%1s，需要您授予以下权限：</string>
+    <string name="ty_permission_tip_write_storage">- 获取操作存储空间的权限</string>
+    <string name="ty_phone_num_error">手机号码输入错误</string>
+
+    <!-- old -->
+    <string name="action_close">关闭</string>
+    <string name="action_tips_exit_hint">再按一次退出</string>
+    <string name="ap_mode">热点模式</string>
+    <string name="app_name">涂鸦商照Demo</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_connect">移除设备</string>
+    <string name="choose_country_code">国家选择</string>
+    <string name="choose_wifi">添加设备</string>
+    <string name="confirm">确定</string>
+    <string name="connect_phone_to_network">请确定手机已经连上Wi-Fi</string>
+    <string name="content_device_offline">请检查或尝试:\n1.设备连接电源是否正常；\n2.Wi-Fi网络是否正常；\n3.重置设备,重新添加。
+    </string>
+    <string name="device_confirm_remove">确定要移除设备吗？</string>
+    <string name="device_has_unbinded">设备已移除</string>
+    <string name="fail">操作失败</string>
+    <string name="finish">完成</string>
+    <string name="go_next">下一步</string>
+    <string name="input_password">密码</string>
+    <string name="input_telephone_number">手机号码</string>
+    <string name="input_verification_code">验证码</string>
+    <string name="left_button_device_offline">重置说明</string>
+    <string name="loading">加载中</string>
+    <string name="login_choose_country">国家 / 地区</string>
+    <string name="login_get_code">获取</string>
+    <string name="login_reget_code">重新获取</string>
+    <string name="login_session_expired">登录信息已过期,请重新登录</string>
+    <string name="logining">登录中…</string>
+    <string name="logout">退出登录</string>
+    <string name="no_device_found">设备不存在</string>
+    <string name="open_wifi">需要开启手机Wi-Fi网络连接才能添加设备，确认后自动开启</string>
+    <string name="please_input_password">输入密码</string>
+    <string name="please_input_company_name">输入公司名称</string>
+    <string name="reget_validation_second">(%d 秒)</string>
+    <string name="rename">重命名</string>
+    <string name="rename_device">修改设备名称</string>
+    <string name="retry">重试</string>
+    <string name="right_button_device_offline">确定</string>
+    <string name="save">保存</string>
+    <string name="search">搜索</string>
+    <string name="setup">设置</string>
+    <string name="success">操作成功</string>
+    <string name="title_device_offline">设备已离线</string>
+    <string name="toolbar_menu_refresh">刷新</string>
+
+
+    <!-- 共享 -->
+    <string name="ty_no_data">暂无数据</string>
+
+    <!-- EZ配置 -->
+    <string name="ez_notSupport_5G">仅支持2.4G Wi-Fi 网络</string>
+    <string name="ez_notSupport_5G_change">去更改</string>
+    <string name="ez_notSupport_5G_continue">继续</string>
+    <string name="ez_notSupport_5G_tip">仅支持2.4G Wi-Fi网络，请重新选择</string>
+    <string name="network_time_out">当前连接的Wi-Fi不能访问网络，请确认后重试</string>
+    <string name="ty_ap_connect_description">打开手机“设置－无线局域网”，连接上图所示Wi-Fi网络</string>
+    <string name="ty_ap_connect_go">去连接</string>
+    <string name="ty_ap_connect_help">不能连接？请参见帮助</string>
+    <string name="ty_ap_error_description">设备连接异常，请参考帮助后重试</string>
+    <string name="ty_ap_error_phone">联系我们\n 400-159-4688</string>
+    <string name="ty_ap_error_title">设备连接异常</string>
+    <string name="ty_enter_keyword_tip">密码必须为6-20个字符，包含字母、数字和符号</string>
+    <string name="ty_ez_connecting_device_note2">路由器、手机和设备尽量靠近</string>
+    <string name="ty_ez_connecting_device_title">尝试连接设备</string>
+    <string name="ty_ez_connecting_devicei_note1">设备连接中</string>
+    <string name="ty_ez_current_no_wifi">目前手机没有连接Wi-Fi</string>
+    <string name="ty_ez_current_wifi_android">当前Wi-Fi:</string>
+    <string name="ty_ez_help">查看帮助</string>
+    <string name="ty_ez_init_comfirm">确认已重置，进入热点模式</string>
+    <string name="ty_ez_init_descripton1">网络不稳定，请连接到设备热点再次尝试\n 连接前请先按说明重置设备</string>
+    <string name="ty_ez_init_descripton2">智能灯：电源连续慢速操作“开”和“关”3次，切换到慢速闪烁状态。</string>
+    <string name="ty_ez_init_descripton3">其他设备：长按设备复位键5秒后，指示灯开始慢速闪烁。(复位键参见产品说明书)</string>
+    <string name="ty_ez_init_help">详细设置请参见帮助</string>
+    <string name="ty_ez_other_wifi">使用其他Wi-Fi</string>
+    <string name="ty_ez_status_success">添加成功</string>
+    <string name="ty_ez_wifi_title">设置设备工作Wi-Fi</string>
+
+    <!-- 登录注册 -->
+    <string name="code_has_send_to_email">验证码已经发送到你的邮箱:</string>
+    <string name="code_has_send_to_phone">验证码已经发送到你的手机:</string>
+    <string name="direct_login">是否直接登录?</string>
+    <string name="input_new_password">输入新密码</string>
+    <string name="login">登录</string>
+    <string name="modify_password_success">修改密码成功\n请重新登录</string>
+    <string name="phone_email">手机号 / 邮箱</string>
+    <string name="ty_login_forget_keyword">忘记密码</string>
+    <string name="ty_login_modify_password">修改密码</string>
+    <string name="ty_login_register">注册</string>
+    <string name="ty_login_sms">短信验证码登录</string>
+    <string name="ty_login_sms_confirm">通过短信验证码登录</string>
+    <string name="user_exists">用户已存在</string>
+
+    <!-- 个人中心 -->
+
+    <string name="choose_dp_value">选择DpId:%s的值</string>
+    <string name="ty_confirm">确认</string>
+    <string name="ty_cancel">取消</string>
+    <string name="ty_simple_confirm_title">提示</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_failed">保存失败</string>
+    <string name="ty_add_device_ap_btn_info">指示灯慢速闪烁中</string>
+    <string name="ty_add_device_ap_info">接通电源，确认指示灯处于慢闪状态</string>
+    <string name="ty_add_device_btn_info">指示灯处于其他状态</string>
+    <string name="ty_add_device_ez_btn_info">指示灯快速闪烁中</string>
+    <string name="ty_add_device_ez_failure_ap_tip">当前网络不稳定，请确认指示灯处于慢闪状态</string>
+    <string name="ty_add_device_ez_info">接通电源，确认指示灯处于快闪状态</string>
+    <string name="format_error">格式错误</string>
+    <string name="ty_test_mode">测试模式</string>
+    <string name="property">属性：</string>
+    <string name="log_window">日志窗口</string>
+    <string name="sendCommand">发送命令</string>
+    <string name="mode_only_read">只上报</string>
+    <string name="mode_read_write">可下发可上报</string>
+    <string name="mode_only_write">只下发</string>
+    <string name="stringType">字符串型</string>
+    <string name="valueType">数值型</string>
+    <string name="bitmapType">故障型</string>
+    <string name="rawType">透传类型</string>
+    <string name="booleanType">布尔型</string>
+    <string name="enumType">枚举型</string>
+    <string name="data_report">数据上报: </string>
+    <string name="message_request">数据请求: </string>
+    <string name="time_dp_start">开始时间: </string>
+    <string name="time_dp_end">结束时间: </string>
+    <string name="time_dp_spend">发送耗时: </string>
+    <string name="message_receive">返回结果: </string>
+    <string name="failure_reason">失败原因: </string>
+    <string name="device_offLine">设备已离线，不可操作，请检查网络或重启设备</string>
+    <string name="device_network_error">网络错误，请检查网络设置</string>
+
+
+    <!-- 家庭管理 -->
+
+    <!-- 添加家庭 -->
+
+    <!-- 家庭信息 -->
+
+    <string name="ty_add_device_sort">选择设备类型</string>
+    <string name="ty_notify_location_setup">请开启手机定位权限，以便扫描附近的WiFi设备</string>
+    <string name="ty_add_device_wifi">wifi设备</string>
+    <string name="ty_add_device_gateway">网关设备</string>
+    <string name="ty_add_device_sigmesh">SigMesh设备</string>
+
+    <!--commercial lighting-->
+
+    <!--project-->
+    <string name="cl_project_index_title">项目管理</string>
+    <string name="cl_project_add_title">新建项目</string>
+    <string name="cl_project_info_title">项目详情</string>
+    <string name="cl_project_info_remove_txt">移除项目</string>
+    <string name="cl_project_add_item_check_tip">不能为空</string>
+    <string name="cl_project_info_name">项目名称</string>
+    <string name="cl_project_info_leader_name">项目负责人</string>
+    <string name="cl_project_info_leader_mobile">负责人联系方式</string>
+    <string name="cl_project_info_address">项目地址</string>
+    <string name="cl_project_input_password">请输入密码</string>
+
+    <string name="cl_area_index_title">空间管理</string>
+    <string name="cl_area_index_list">获取一级空间列表</string>
+    <string name="cl_area_index_level_list">获取空间层级列表</string>
+
+    <string name="cl_area_info_title">空间设置</string>
+    <string name="cl_area_remove">删除空间</string>
+    <string name="cl_area_add_new_area">新建空间</string>
+    <string name="cl_area_add_sub_area">创建下级空间</string>
+    <string name="cl_area_add_parent_area">创建上级空间</string>
+    <string name="cl_area_name">空间名称</string>
+    <string name="cl_area_level">空间等级</string>
+    <string name="cl_area_edit_name">更新名称</string>
+
+    <string name="cl_area_control">空间控制</string>
+
+    <string name="cl_choose_project_type">请选择项目类型</string>
+    <string name="cl_area_add_longitude">请选择经度:例如120.00000000</string>
+    <string name="cl_area_add_latitude">请选择纬度:例如80.000000</string>
+    <string name="cl_area_add_address">请选择详细地址:西湖区五常港路</string>
+
+    <string name="cl_no_more_data">没有更多数据</string>
+    <string name="cl_packed_group">组合群组列表</string>
+    <string name="cl_create_packed_group">创建组合群组</string>
+    <string name="cl_device_list">设备控制UI业务包</string>
+    <string name="cl_device_config">设备配网UI业务包</string>
+    <string name="cl_ticket_login">ticket登录</string>
+    <string name="cl_password_login">账号登录</string>
+    <string name="cl_config_step1_for_sigmesh">第一步：创建Bluetooth Mesh</string>
+    <string name="cl_config_step2_for_sigmesh">第二步：搜索蓝牙Mesh设备</string>
+    <string name="cl_config_step3_activator">第三步：开始配网</string>
+    <string name="cl_config_step4_put_devices_in_area">第四步：设备转移至当前空间</string>
+    <string name="cl_activator_tips">开启定位权限和蓝牙开关</string>
+    <string name="cl_retry">重试</string>
+</resources>

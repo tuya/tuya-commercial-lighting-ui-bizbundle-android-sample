@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/action_bar_layout"
+        layout="@layout/toolbar_top_view" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/project_type_icon"
+        android:layout_width="@dimen/mg_100"
+        android:layout_height="@dimen/mg_100"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/mg_10"
+        android:scaleType="center" />
+
+    <TextView
+        android:id="@+id/project_type_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/mg_10"
+        android:gravity="center"
+        android:textColor="@color/primary_button_bg_color"
+        android:textSize="@dimen/ts_16" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/project_add_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_bar_layout" />
+
+</LinearLayout>

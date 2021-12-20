@@ -1,0 +1,78 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="tuya_title_size">17sp</dimen>
+    <!-- 线条高宽控制 -->
+    <dimen name="single_pix">1px</dimen>
+
+    <!-- 默认字体大小 -->
+    <dimen name="ts_24">24sp</dimen>
+    <dimen name="ts_20">20sp</dimen>
+    <dimen name="ts_18">18sp</dimen>
+    <dimen name="ts_16">16sp</dimen>
+    <dimen name="ts_15">15sp</dimen>
+    <dimen name="ts_14">14sp</dimen>
+    <dimen name="ts_13">13sp</dimen>
+    <dimen name="ts_12">12sp</dimen>
+    <dimen name="ts_11">11sp</dimen>
+    <dimen name="ts_10">10sp</dimen>
+    <dimen name="line_dip">1px</dimen>
+
+    <!-- 间距大小 -->
+    <dimen name="mg_100">100dp</dimen>
+    <dimen name="mg_88">88dp</dimen>
+    <dimen name="mg_80">80dp</dimen>
+    <dimen name="mg_68">68dp</dimen>
+    <dimen name="mg_66">66dp</dimen>
+    <dimen name="mg_60">60dp</dimen>
+    <dimen name="mg_50">50dp</dimen>
+    <dimen name="mg_48">48dp</dimen>
+    <dimen name="mg_44">44dp</dimen>
+    <dimen name="mg_40">40dp</dimen>
+    <dimen name="mg_30">30dp</dimen>
+    <dimen name="mg_28">28dp</dimen>
+    <dimen name="mg_24">24dp</dimen>
+    <dimen name="mg_18">18dp</dimen>
+    <dimen name="mg_22">22dp</dimen>
+    <dimen name="mg_20">20dp</dimen>
+    <dimen name="mg_16">16dp</dimen>
+    <dimen name="mg_15">15dp</dimen>
+    <dimen name="mg_14">14dp</dimen>
+    <dimen name="mg_12">12dp</dimen>
+    <dimen name="mg_10">10dp</dimen>
+    <dimen name="mg_8">8dp</dimen>
+    <dimen name="mg_6">6dp</dimen>
+    <dimen name="mg_5">5dp</dimen>
+    <dimen name="mg_3">3dp</dimen>
+    <dimen name="mg_4">4dp</dimen>
+    <dimen name="mg_2">2dp</dimen>
+
+    <!-- 宽高度 -->
+    <dimen name="wh_100">100dp</dimen>
+    <dimen name="wh_88">88dp</dimen>
+    <dimen name="wh_60">60dp</dimen>
+    <dimen name="wh_48">48dp</dimen>
+    <dimen name="wh_36">36dp</dimen>
+    <dimen name="wh_20">20dp</dimen>
+    <dimen name="wh_6">6dp</dimen>
+    <dimen name="wh_4">4dp</dimen>
+
+    <dimen name="edit_height">44dp</dimen>
+
+    <dimen name="phone_button_height">44dp</dimen>
+    <dimen name="phone_button_margin_left">15dp</dimen>
+    <dimen name="phone_button_margin_right">15dp</dimen>
+    <dimen name="phone_button_text_size">15sp</dimen>
+    <dimen name="phone_button_padding_left">15dp</dimen>
+    <dimen name="verification_phone_button_margin_top">10dp</dimen>
+    <dimen name="three_grid_unit">24dp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+    <dimen name="mg_38">38dp</dimen>
+    <dimen name="mg_37">37dp</dimen>
+    <dimen name="mg_17">17dp</dimen>
+    <dimen name="mg_62">62dp</dimen>
+    <dimen name="mg_120">120dp</dimen>
+    <dimen name="mg_19">19dp</dimen>
+    <dimen name="mg_32">32dp</dimen>
+</resources>

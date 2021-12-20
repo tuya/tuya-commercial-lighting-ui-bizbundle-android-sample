@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_project_index_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/wh_60"
+    android:layout_marginTop="@dimen/wh_20"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/mg_15"
+    android:paddingRight="@dimen/mg_15">
+
+    <TextView
+        android:id="@+id/project_index_add_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:text="@string/ty_change_login_keyword"
+        android:textColor="?attr/list_primary_color"
+        android:textSize="@dimen/ts_20" />
+
+
+    <TextView
+        android:id="@+id/tv_content_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:drawableRight="@drawable/arrow_more"
+        android:drawablePadding="6dp"
+        android:textColor="@color/text_color"
+        android:textSize="14sp" />
+
+</RelativeLayout>

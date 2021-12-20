@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuya.smart.commercial.lighting.demo.pages.config.view.SigMeshConfigActivity">
+
+    <Button
+        android:id="@+id/btn_sigmesh_create"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cl_config_step1_for_sigmesh"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sigmesh_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cl_config_step2_for_sigmesh"
+        app:layout_constraintTop_toBottomOf="@id/btn_sigmesh_create" />
+
+    <Button
+        android:id="@+id/btn_sigmesh_config"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cl_config_step3_activator"
+        app:layout_constraintTop_toBottomOf="@id/btn_sigmesh_search" />
+
+    <Button
+        android:id="@+id/btn_sigmesh_area"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cl_config_step4_put_devices_in_area"
+        app:layout_constraintTop_toBottomOf="@id/btn_sigmesh_config" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="@string/cl_activator_tips"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/tv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

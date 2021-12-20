@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fragment_bg_color">
+
+    <include
+        android:id="@+id/action_bar_layout"
+        layout="@layout/toolbar_top_view" />
+
+    <TextView
+        android:id="@+id/network_tip"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/action_bar_layout"
+        android:background="?attr/notice_bg_color"
+        android:gravity="center"
+        android:padding="@dimen/mg_3"
+        android:text="@string/network_time_out"
+        android:textColor="?attr/notice_font_color"
+        android:textSize="@dimen/ts_14"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_create"
+        android:layout_below="@id/network_tip">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/lv_device_list"
+                style="@style/list_view"
+                android:background="@color/transparent" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/list_background_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_none_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ty_nolist_logo" />
+
+        <TextView
+            android:id="@+id/tv_none_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_none_data"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="@string/ty_no_data"
+            android:textColor="@color/text_color2"
+            android:textSize="@dimen/ts_16" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Create" />
+</RelativeLayout>
+
+

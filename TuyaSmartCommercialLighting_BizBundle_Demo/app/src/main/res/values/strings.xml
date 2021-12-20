@@ -1,0 +1,249 @@
+<resources>
+
+    <string name="app_name">Tuya Commercial Lighting Demo</string>
+    <string name="ty_add_device_sigmesh">Sigmesh</string>
+    <!-- 通用 -->
+    <string name="Confirm">Confirm</string>
+    <string name="ty_loading">Loading…</string>
+    <string name="login_register">Register</string>
+    <string name="please_input_wifi_password">Please input password</string>
+    <string name="ty_add_device_find_dev">Find device</string>
+    <string name="ty_add_device_initialize">Initialize device</string>
+    <string name="ty_add_device_reg_cloud">Register device to the cloud</string>
+    <string name="ty_change_login_keyword">Change login password</string>
+    <string name="ty_config_device_init_tip">Initializing the device&#046;&#046;&#046;</string>
+    <string name="ty_control_panel_factory_reset">Restore manufacture defaults</string>
+    <string name="ty_control_panel_factory_reset_fail">Restoring failed, please retry</string>
+    <string name="ty_control_panel_factory_reset_info">Device as well as related data will be
+        removed after restoring manufacture defaults
+    </string>
+    <string name="ty_control_panel_factory_reset_succ">Success</string>
+    <string name="ty_control_panel_factory_reseting">Restoring, please don\'t turn it off&#046;&#046;&#046;.</string>
+    <string name="ty_current_bind_phone_tip">The bound account is:</string>
+    <string name="ty_login_forget_keyword_find">Find password</string>
+    <string name="ty_modify_device_name_length_limit">No more than 25 characters for device name
+    </string>
+    <string name="ty_no_net_info">Network error, please check</string>
+    <string name="ty_offline_delete_share">Delete sharing</string>
+    <string name="ty_permission_tip_location">- Get permission to location information</string>
+    <string name="ty_permission_tip_phone_state">- Get permission to read phone status</string>
+    <string name="ty_permission_tip_read_set">To normally use %1$s, please grant permission to
+        \"read or write system settings\"
+    </string>
+    <string name="ty_permission_tip_tail">Please grant permissions above in phone
+        \"Settings\"-\"Applications\"-%1$s-\"Permission\"
+    </string>
+    <string name="ty_permission_tip_title">To normally use %1s, please grant permissions below:
+    </string>
+    <string name="ty_permission_tip_write_storage">- Get permission to operate storage</string>
+    <string name="ty_phone_num_error">Mobile number error</string>
+
+    <!-- old -->
+    <string name="action_close">Close</string>
+    <string name="action_tips_exit_hint">Tap once more to exit</string>
+    <string name="ap_mode">AP Mode</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_connect">Remove device</string>
+    <string name="choose_country_code">Country Choosed</string>
+    <string name="choose_wifi">Add Device</string>
+    <string name="confirm">Confirm</string>
+    <string name="connect_phone_to_network">Please make sure your phone connected to Wi-Fi.</string>
+    <string name="content_device_offline">Pleases check or try:\n1. if the device powered on\n2. if
+        Wi-Fi available\n3. Reset the device
+    </string>
+    <string name="device_confirm_remove">Are you sure remove this device?</string>
+    <string name="device_has_unbinded">Device remove</string>
+    <string name="fail">Failure</string>
+    <string name="finish">Done</string>
+    <string name="go_next">Next</string>
+    <string name="input_password">Password</string>
+    <string name="input_telephone_number">Phone Number</string>
+    <string name="input_verification_code">Verification Code</string>
+    <string name="left_button_device_offline">Instructions</string>
+    <string name="loading">Loading</string>
+    <string name="login_choose_country">Country / Region</string>
+    <string name="login_get_code">Get</string>
+    <string name="login_reget_code">Retry</string>
+    <string name="login_session_expired">Session Token Expired, please log in again</string>
+    <string name="logining">Logining…</string>
+    <string name="logout">Logout</string>
+    <string name="no_device_found">Device not found</string>
+    <string name="open_wifi">Please turn on Wi-Fi</string>
+    <string name="please_input_password">Please input password</string>
+    <string name="please_input_company_name">Please input company name</string>
+    <string name="reget_validation_second">(%d s)</string>
+    <string name="rename">Rename</string>
+    <string name="rename_device">Modify Device Name</string>
+    <string name="retry">Retry</string>
+    <string name="right_button_device_offline">OK</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="setup">Setting</string>
+    <string name="success">Success</string>
+    <string name="title_device_offline">Device Offline</string>
+    <string name="toolbar_menu_refresh">Refresh</string>
+    <!-- 共享 -->
+    <string name="ty_enter_keyword_tip">6-20 characters for password, including character, numbers,
+        symbols
+    </string>
+    <!-- EZ配置 -->
+    <string name="ty_no_data">No data</string>
+    <string name="ez_notSupport_5G">This app is supported only on 2.4GHz Wi-Fi channels</string>
+    <string name="ez_notSupport_5G_change">Change</string>
+    <string name="ez_notSupport_5G_continue">Continue</string>
+    <string name="ez_notSupport_5G_tip">This app is supported only on 2.4GHz Wi-Fi channels, please
+        retry
+    </string>
+    <string name="network_time_out">Network connection error, please check</string>
+    <string name="ty_ap_connect_description">Open phone \"setting-WLAN\" and connect to the Wi-Fi
+        network
+    </string>
+    <string name="ty_ap_connect_go">Connect now</string>
+    <string name="ty_ap_connect_help">Not connecting? Refer to help</string>
+    <string name="ty_ap_error_description">Connection error, refer to help and retry</string>
+    <string name="ty_ap_error_phone">Contact us\n support@tuya.com</string>
+    <string name="ty_ap_error_title">Connection error</string>
+
+    <string name="ty_ez_connecting_device_note2">Keep router, phone and device within\n valid
+        distance
+    </string>
+    <string name="ty_ez_connecting_device_title">Try to connect device</string>
+    <string name="ty_ez_connecting_devicei_note1">Device is connecting</string>
+    <string name="ty_ez_current_no_wifi">Phone is not connecting Wi-Fi at present</string>
+    <string name="ty_ez_current_wifi_android">Wi-Fi at present:</string>
+    <string name="ty_ez_help">View help</string>
+    <string name="ty_ez_init_comfirm">Confirm reset, switch to hotspot mode</string>
+    <string name="ty_ez_init_descripton1">Network is unstable, please connect to device hotspot and
+        try again\nReset device first before connection
+    </string>
+    <string name="ty_ez_init_descripton2">Smart lamp: Switch \"on\" and \"off\" 3 times, until it
+        slowly flashes
+    </string>
+    <string name="ty_ez_init_descripton3">Other deviceList: Long press reset button for 5 seconds until
+        instructor light slowly flashes(refer to manual for details)
+    </string>
+    <string name="ty_ez_init_help">Refer to help for details</string>
+    <string name="ty_ez_other_wifi">Use other Wi-Fi</string>
+    <string name="ty_ez_status_success">Add successfully</string>
+    <string name="ty_ez_wifi_title">Set up the Wi-Fi for device</string>
+
+    <!-- 登录注册 -->
+    <string name="code_has_send_to_email">The verification code is sent to your email:</string>
+    <string name="code_has_send_to_phone">Verification code is sent to your phone:</string>
+    <string name="direct_login">Directly login?</string>
+    <string name="input_new_password">Enter new password</string>
+    <string name="login">Login</string>
+    <string name="modify_password_success">Password is changed\n Please sign in again</string>
+    <string name="phone_email">Mobile number/E-mail</string>
+    <string name="ty_login_forget_keyword">Forgot password</string>
+    <string name="ty_login_modify_password">Change password</string>
+    <string name="ty_login_register">Register</string>
+    <string name="ty_login_sms">SMS verify and sign in</string>
+    <string name="ty_login_sms_confirm">Sign in with SMS verfication</string>
+
+    <!-- 个人中心 -->
+    <string name="user_exists">The user has existed</string>
+    <string name="choose_dp_value">Choose DpId:%s Value</string>
+    <string name="ty_confirm">Confirm</string>
+    <string name="ty_cancel">Cancel</string>
+    <string name="ty_simple_confirm_title">Tip</string>
+    <string name="save_success">Save success</string>
+
+    <string name="save_failed">Save failed</string>
+
+
+    <string name="ty_add_device_ap_info">Power on and confirm instructor light slowly flashing
+    </string>
+    <string name="ty_add_device_btn_info">Instructor light is on other status</string>
+    <string name="ty_add_device_ez_btn_info">Instructor light is quickly flashing</string>
+    <string name="ty_add_device_ez_failure_ap_tip">Unstable network, please confirm instructor light
+        slowly flashing
+    </string>
+    <string name="ty_add_device_ez_info">Power on and confirm instructor light quickly flashing
+    </string>
+    <string name="format_error">Format Error</string>
+    <string name="ty_test_mode">Test Mode</string>
+    <string name="property">Property:</string>
+    <string name="log_window">Log Window</string>
+    <string name="sendCommand">send Command</string>
+    <string name="mode_only_read">Only report</string>
+    <string name="mode_read_write">Send and Report</string>
+    <string name="mode_only_write">Only send</string>
+    <string name="stringType">String</string>
+    <string name="valueType">Value</string>
+    <string name="bitmapType">Bitmap</string>
+    <string name="rawType">Raw</string>
+    <string name="booleanType">Bool</string>
+    <string name="enumType">Enum</string>
+    <string name="ty_add_device_ap_btn_info">Indicator light is slowly flashing</string>
+    <string name="data_report">Data report: </string>
+    <string name="message_request">Message send: </string>
+    <string name="time_dp_start">Start time: </string>
+    <string name="time_dp_end">End time: </string>
+    <string name="time_dp_spend">Time spend: </string>
+    <string name="message_receive">Dp receive: </string>
+    <string name="failure_reason">Reason of failure: </string>
+    <string name="device_offLine">Device offline</string>
+    <string name="device_network_error">Network Error</string>
+
+
+    <!-- 家庭管理 -->
+
+    <!-- 添加家庭 -->
+
+    <!-- 家庭信息 -->
+
+    <string name="ty_add_device_sort">Select Device Type</string>
+    <string name="ty_notify_location_setup">Enable phone location permission to find nearby Wi-Fi devices</string>
+    <string name="ty_add_device_wifi">wifi device</string>
+    <string name="ty_add_device_gateway">gateway device</string>
+
+
+    <!--commercial lighting-->
+
+    <!--project-->
+    <string name="cl_project_index_title">Project Management</string>
+    <string name="cl_project_add_title">Create Project</string>
+    <string name="cl_project_info_title">Project Detail</string>
+    <string name="cl_project_info_remove_txt">Remove Project</string>
+    <string name="cl_project_add_item_check_tip">can not be null</string>
+    <string name="cl_project_info_name">Project Name</string>
+    <string name="cl_project_info_leader_name">Leader Name</string>
+    <string name="cl_project_info_leader_mobile">Leader Mobile</string>
+    <string name="cl_project_info_address">Project Address</string>
+    <string name="cl_project_input_password">Please Input Password</string>
+
+    <string name="cl_area_index_title">Area Management</string>
+    <string name="cl_area_index_list">The First Level Area List</string>
+    <string name="cl_area_index_level_list">Area Hierarchy List</string>
+    <string name="cl_area_info_title">Area Setting</string>
+    <string name="cl_area_remove">Delete Area</string>
+    <string name="cl_area_add_new_area">Create Area</string>
+    <string name="cl_area_add_sub_area">Create Sub Area</string>
+    <string name="cl_area_add_parent_area">Create Parent Area</string>
+    <string name="cl_area_name">Area Name</string>
+    <string name="cl_area_level">Area Level</string>
+    <string name="cl_area_edit_name">Update Name</string>
+
+    <string name="cl_area_control">Area Control</string>
+
+    <string name="cl_choose_project_type">Please Choose Project Type</string>
+
+    <string name="cl_area_add_longitude">Please choose longitude from map, for example:120.00000000</string>
+    <string name="cl_area_add_latitude">Please choose latitude form map, for example:80.000000</string>
+    <string name="cl_area_add_address">Latitude and longitude positioning detailed address，for example: Wuchanggang Road, Xihu District</string>
+
+    <string name="cl_no_more_data">No more data </string>
+    <string name="cl_packed_group">Packed Group list</string>
+    <string name="cl_create_packed_group">Create Packed Group</string>
+    <string name="cl_device_list">Device Control BizBundle</string>
+    <string name="cl_device_config">Device CONFIG BizBundle</string>
+    <string name="cl_ticket_login">Login By Ticket</string>
+    <string name="cl_password_login">Login by account</string>
+    <string name="cl_config_step1_for_sigmesh">Step 1：Create a Mesh</string>
+    <string name="cl_config_step2_for_sigmesh">Step 2：Seach Bluetooth mesh devices</string>
+    <string name="cl_config_step3_activator">Step 3：Start Activator</string>
+    <string name="cl_config_step4_put_devices_in_area">Step4：Put Devices in current area.</string>
+    <string name="cl_activator_tips">Enable location permission and bluetooth</string>
+    <string name="cl_retry">Retry</string>
+</resources>

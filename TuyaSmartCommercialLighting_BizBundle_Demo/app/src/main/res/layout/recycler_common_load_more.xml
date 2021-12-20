@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:visibility="gone"
+        android:text="Loading..."
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/end_tv"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:visibility="gone"
+        android:text="No more data."
+        android:textColor="#FFB3B3BB"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

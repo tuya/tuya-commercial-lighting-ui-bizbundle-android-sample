@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuya.smart.commercial.lighting.demo.pages.area.view.AreaInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/action_bar_layout"
+            layout="@layout/toolbar_top_view" />
+
+        <TextView
+            android:id="@+id/area_info_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mg_24"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="@dimen/mg_24"
+            android:textColor="@color/black"
+            android:textSize="@dimen/mg_24"
+            app:drawableEndCompat="@drawable/my_scene" />
+
+        <TextView
+            android:id="@+id/area_info_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/mg_16" />
+
+        <Button
+            android:id="@+id/btn_area_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mg_12"
+            android:layout_weight="1"
+            android:text="Area Control" />
+
+        <Button
+            android:id="@+id/btn_device_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cl_device_list" />
+
+        <Button
+            android:id="@+id/btn_device_config"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cl_device_config" />
+
+        <Button
+            android:id="@+id/btn_packed_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cl_packed_group" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/area_info_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/mg_60" />
+
+        <Button
+            android:id="@+id/area_info_create_sub"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_60"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/cl_area_add_sub_area"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/ts_20" />
+
+        <Button
+            android:id="@+id/area_info_create_parent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_60"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/cl_area_add_parent_area"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/ts_20" />
+
+        <Button
+            android:id="@+id/area_info_remove"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/wh_60"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/cl_area_remove"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/ts_20" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
