@@ -31,8 +31,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
 
     api "com.tuya.smart:tuyasmart-tuyacommerciallightingsdk:1.11.3"
-    api 'com.tuya.smart:tuyasmart-commercial-lighting-bizbundle-device_activator:1.11.3-4'
-
-
-
+    api 'com.tuya.smart:tuyasmart-commercial-lighting-bizbundle-device_activator:1.11.3-5'
 }
