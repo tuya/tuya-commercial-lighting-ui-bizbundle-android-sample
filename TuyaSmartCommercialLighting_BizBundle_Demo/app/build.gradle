@@ -115,10 +115,6 @@ android {
 
         /*================================SDK====================================*/
 
-        implementation("com.tuya.smart:tuyasmart-bluemesh:1.11.0-cl-1") {
-            force = true
-        }
-
         api 'com.tuya.smart:tuyasmart-react-native-amap:3.27.5'
         implementation 'com.amap.api:search:7.7.0'
         implementation 'com.amap.api:3dmap:7.8.0'
